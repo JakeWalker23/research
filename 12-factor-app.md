@@ -141,3 +141,14 @@ In a local deploy, developers invoke one-off admin processes by a direct shell c
 The 12 factor App is a set of "advisory" guidelines for building scalable, robust web applications. From Adam's experience building Heroku, he offers this wisdom to apply to cloud based web applications. From using Heroku, you can see many of these factors utilised. From logs, to crash only software (Disposibility). I like and am familiar with many of these concepts. I really like the idea of continuous deployment, deploying code every couple of hours. 
 
 This reading and research was a very top level read. I think these concepts should be explored again in the near future to really absorb what I have read.
+
+
+
+
+## How well do I understand this technology?
+
+3 / 10
+
+## How imaginitive do I currently feel using this technology?
+
+3 / 10
