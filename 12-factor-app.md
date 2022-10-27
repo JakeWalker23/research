@@ -1,5 +1,10 @@
 # 12 Factor App 
 
+## Resources
+
+https://12factor.net/
+
+
 ## What Do I think a 12 factor app is?
 
 I think that a 12 factor app is a methodology for building software as a service. This includes factors like scalability, authentication. I dont know 12 factors of this methodology but I am about to learn.

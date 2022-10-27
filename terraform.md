@@ -3,6 +3,10 @@
 Terraform allows you to provision infrastructure by writing code. Instead of using the GUI to provision, you can write configuration files that can operate on multiple clouds!
 
 
+## Resources
+https://developer.hashicorp.com/terraform/tutorials/docker-get-started/docker-build 
+
+
 # Terraform Commands
 
 Usage: terraform [global options] <subcommand> [args]
