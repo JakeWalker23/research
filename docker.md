@@ -33,3 +33,6 @@ Most applications use multiple services that talk to eachother through a network
 
 ```docker network ls``` shows that docker ships with 3 containers as standard. The bridge network is shared for all containers. Creating your own network ``` docker network create {network}``` allows you to create a network that is isolated from other containers. You can use ```curl {ip:port}``` to see if the container is listening on that IP address.
 
+
+
+https://docker-curriculum.com/#what-is-docker
