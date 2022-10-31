@@ -35,4 +35,47 @@ Most applications use multiple services that talk to eachother through a network
 
 
 
+## Docker Compose
+
+Consider the following docker-compose.yml file: What are are doing is setting up multiple services and creating a docker network with one file. The files contains services, ports and volumes to persist data.
+
+A docker-compose file combines images, networks and volumes to create a networked microservice instance. Docker is networking multiple containers and persisting data in a docker volume. Brilliant.
+
+```
+version: "3"
+services:
+  es:
+    image: docker.elastic.co/elasticsearch/elasticsearch:6.3.2
+    container_name: es
+    environment:
+      - discovery.type=single-node
+    ports:
+      - 9200:9200
+    volumes:
+      - esdata1:/usr/share/elasticsearch/data
+  web:
+    image: yourusername/foodtrucks-web
+    command: python3 app.py
+    depends_on:
+      - es
+    ports:
+      - 5000:5000
+    volumes:
+      - ./flask-app:/opt/flask-app
+volumes:
+  esdata1:
+    driver: local
+
+```
+
+## To run
+
+```docker compose up -d```
+
+Check network ```docker network ls```
+
+Inspect network ```docker inspect network {network}```
+
+
+
 https://docker-curriculum.com/#what-is-docker
