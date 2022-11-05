@@ -10,3 +10,4 @@ Technologies and concepts I've researched
 30/10/2022 - Docker
 31/10/2022 - Docker
 
+05/11/2022 -  C4 Architecture
