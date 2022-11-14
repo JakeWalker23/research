@@ -6,6 +6,8 @@
 Kubernetes is a platform for managing containerized applications. It provides a framework to manage containers; offering scalability, resiliance, orchestration and more. If a container goes down, Kubernetes can start it back up automatically. If an application can run in a container, it should run great in kubernetes. 
 
 
+https://kubernetes.io/docs/
+
 ## Key Aspects of Kubenetes:
 
 
