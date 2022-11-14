@@ -32,6 +32,8 @@ load balance between them
 ```kubectl get services``` - Gets all the services with the cluster 
 ```kubectl describe services``` - Describes information about the service 
 
+https://kubernetes.io/docs/concepts/services-networking/service/
+
 
 ### Deployment
 A deployment provides declarative updates for pods and replicaSets
@@ -58,7 +60,7 @@ Basic Troubleshooting ```kubectl``` usage:
 <img src="images/kubernetes/troubleshoot.png" width="700" height="100">
 
 
-
+https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
 
 
 
